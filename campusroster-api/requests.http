@@ -1,0 +1,29 @@
+### Get all students
+GET http://localhost:3000/students
+
+### Get one student
+GET http://localhost:3000/students/1
+
+### Create a student
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{
+  "name": "Kabir Singh",
+  "rollNo": "CR103",
+  "course": "Artificial Intelligence"
+}
+
+### Update one field
+PATCH http://localhost:3000/students/1
+Content-Type: application/json
+
+{
+  "course": "Data Science"
+}
+
+### Delete a student
+DELETE http://localhost:3000/students/2
+
+### Check a missing student
+GET http://localhost:3000/students/999

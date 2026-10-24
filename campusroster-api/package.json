@@ -1,0 +1,12 @@
+{
+  "name": "campusroster-api",
+  "version": "1.0.0",
+  "description": "A simple student CRUD REST API for the DevOps lab",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
